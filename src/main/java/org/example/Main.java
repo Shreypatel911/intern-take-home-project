@@ -63,7 +63,7 @@ public class Main {
                     }
 
                 }else{
-                    System.out.print("Enter API endpoint ");
+                    System.out.print("Enter API endpoint: ");
                     String endpoint = scanner.nextLine().trim();
 
                     int year, month, day;
@@ -115,7 +115,7 @@ public class Main {
                             "https://%s/_cat/indices/*%d*%02d*%02d?v&h=index,pri.store.size,pri&format=json&bytes=b",
                             endpoint, year, month, day
                     );
-                    System.out.println(url);
+                    System.out.println("API endpoint: " + url);
 
                     // making a API call to given endpoint
                     try{
