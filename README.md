@@ -44,7 +44,7 @@
 # How to give input after the project is running successfully (Same for both Windows and Mac)
 
 - It will show you two options for input - From JSON file or From API endpoint, choose one of those two, whichever you want to test with
-- If you choose input from JSON file then type name of the file and this file should be in the resources folder (src/main/resources),
+- If you choose input from JSON file then type name of the file(without .json) and this file should be in the resources folder (src/main/resources),
   press enter and you will see the output
 - If you choose input from API endpoint then it will ask for four things 1) [ENDPOINT] 2) [YEAR] 3) [MONTH] 4) [DAY], which are from
   `https://[ENDPOINT]/_cat/indices/*[YEAR]*[MONTH]*[DAY]?v&h=index,pri.store.size,pri&format=json&bytes=b`, after providing this one by one
