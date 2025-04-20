@@ -3,7 +3,7 @@
 - Java (JDK 11 or higher)
 - Apache Maven
 
-# Steps to download softwares on Windows
+# Steps to set up on Windows
 
 - Java
   - Download and install JDK 11 or higher
@@ -15,7 +15,7 @@
   - Add path to the bin folder to your System Path (e.g. C:\Program Files\Apache\apache-maven-3.9.6\bin)
   - Verify using command 'mvn -v' in your terminal, It should show the version of Maven installed
 
-# Steps to download softwares on Mac
+# Steps to set up on Mac
 
 - Java
   - Download and install JDK 11 or higher
