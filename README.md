@@ -34,14 +34,14 @@
     - source ~/.zshrc
   - Verify using command 'mvn -v' in your terminal, It should show the version of Maven installed
  
-# Steps to run the program on Windows
+# Steps to run the program (Same for both Windows and Mac)
 
 - Clone the project
 - Open the project in Intellij or just terminal is also fine
 - Run command 'mvn clean compile'
 - Run command 'mvn exec:java'
 
-# How to give input after the project is running successfully (Same for both Windows and MAC)
+# How to give input after the project is running successfully (Same for both Windows and Mac)
 
 - It will show you two options for input - From JSON file or From API endpoint, choose one of those two, whichever you want to test with
 - If you choose input from JSON file then type name of the file and this file should be in the resources folder (src/main/resources),
