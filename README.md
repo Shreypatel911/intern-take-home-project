@@ -8,12 +8,12 @@
 - Java
   - Download and install JDK 11 or higher
   - Add path to the bin folder to your System Path (e.g. C:\Program Files\Java\jdk-11\bin)
-  - Verify using command 'java -version' in your terminal. It should show the version of Java installed.
+  - Verify using command 'java -version' in your terminal. It should show the version of Java installed
 - Maven
   - Install Apache Maven
   - Extract the zip file
-  - Add path to the bin folder to your System Path (e.g. C:\Program Files\Apache\apache-maven-3.9.6)
-  - Verify using command 'mvn -v' in your terminal. It should show the version of Maven installed.
+  - Add path to the bin folder to your System Path (e.g. C:\Program Files\Apache\apache-maven-3.9.6\bin)
+  - Verify using command 'mvn -v' in your terminal. It should show the version of Maven installed
  
 # Steps to run the program on Windows
 
